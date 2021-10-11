@@ -1,0 +1,12 @@
+2021-10-10 13:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.category as category3_0_, product0_.description as descript4_0_, product0_.image as image5_0_, product0_.name as name6_0_, product0_.price as price7_0_, product0_.quantity as quantity8_0_ from product product0_ [42102-200]
+2021-10-10 13:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.category as category3_0_, product0_.description as descript4_0_, product0_.image as image5_0_, product0_.name as name6_0_, product0_.price as price7_0_, product0_.quantity as quantity8_0_ from product product0_ [42102-200]
+2021-10-10 13:24:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "PRODUCT[*] PRODUCT PRODUCT"; expected "PREPARE"; SQL statement:
+PRODUCT PRODUCT PRODUCT [42001-200]
+2021-10-10 13:24:58 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "PRODUCT[*]"; expected "PREPARE"; SQL statement:
+PRODUCT [42001-200]
